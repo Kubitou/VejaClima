@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pagClima.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="js/clima.js"></script>
+    <title>Clima</title>
+</head>
+<body>
+    <div class="divTopo">
+        <h1 class="titulo">Veja Clima</h1>
+    </div>
+    <div class="central">
+        
+        <div class="centro" id="centro">
+        <form>
+            <input class="input-field" type="text" id="cidade" placeholder="Nome da cidade">
+            <div class="botaoCentro">
+                <button onclick="Clima()">Buscar</button>
+            </div>
+            <div class="painel" id="painel1"></div>
+            <p> <img id="icone"></p>
+            <div class="painel" id="painel2"></div>
+        </div>
+        </form>
+        <div id="mapa" class="mapa"></div>
+    </div>
+</body>
+</html>
